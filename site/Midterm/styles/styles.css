@@ -1,0 +1,43 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin: 10px auto;
+    background-image:url(https://t4.ftcdn.net/jpg/02/89/57/09/360_F_289570965_L7AYf7vD1UwY4toUFXL3r4CFh9rK5jFH.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+header {
+    text-decoration: aqua;
+    text-align: center;
+}
+#mainContent{
+    width: 1024px;
+    border: 1pt solid;
+}
+nav, main, footer {
+    width:960px;
+    height: 150px;
+    border: 1pt #2E4053 solid;
+    text-align: justify;
+    padding: 10px;
+}
+#definition{
+    width: 960px;
+    height: 320px;
+    border: 1pt #2E4053 solid;
+    padding: 10px;
+}
+#history{
+    width: 960px;
+    height: 310px;
+    border: 1pt #2E4053 solid;
+    padding: 10px;
+}
+#empower{
+    width: 960px;
+    height: 1000px;
+    border: 1pt #2E4053 solid;
+    padding: 10px;
+}

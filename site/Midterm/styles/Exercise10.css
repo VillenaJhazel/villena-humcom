@@ -1,0 +1,71 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1em;
+    box-sizing: border-box;
+    margin: 10px auto;
+    background-color:dimgrey;
+}
+header{
+    width:960px;
+    height: 200px;
+    border: 1pt lavender solid;
+}
+img {
+    width:300px;
+    height:180px;
+    float: left;
+    border: 1pt lavender solid;
+    padding: 10px;
+    margin: 10px;
+    image-orientation: ;
+}
+ol>li{
+    width: 150px;
+    background-color: coral;
+    text-align: center;
+    padding: 3px;
+    border-radius: 16px;
+    float:right;
+    position: relative;
+}
+ol{
+    padding:0px;
+    list-style: none;
+}
+#naomi {
+    background-image: url(https://www.layar.id/wp-content/uploads/2019/05/3-naomi.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+#froz {
+    background-image: url(https://hashtaglegend.com/wp-content/uploads/2019/12/frozen2header-1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+#music {
+    background-image: url(https://images.genius.com/c6d28ce9b3069f83c89c7e11446fa1f9.1000x563x1.jpg);
+    background-size: 100% 100%;
+    position: relative;
+}
+h2 {
+    font:inherit;
+    font-size:25pt;
+    font-style: italic;
+    color: ivory;
+}
+h1 {
+    font:x-small;
+}
+article {
+    width:960px;
+    height:650px;
+    border: 1pt lavender solid;
+    padding: 10px;
+}
+footer {
+    width:960px;
+    height: 200px;
+    border:lavender 1pt solid;
+    padding: 10px;   
+}
+

@@ -3,20 +3,53 @@
     font-size: 1em;
     box-sizing: border-box;
     margin: 10px auto;
+}
+body {
     background-image:url(https://t4.ftcdn.net/jpg/02/89/57/09/360_F_289570965_L7AYf7vD1UwY4toUFXL3r4CFh9rK5jFH.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 100% 100%;
 }
+h1 {
+    font-size: 20pt;
+    font-style: italic;
+    color: #2E4053;
+    float: left;
+}
+h2 {
+    font-size: large;
+    font-style: oblique;
+    color:midnightblue;
+}
+p {
+    text-align: justify;
+}
 header {
-    text-decoration: aqua;
+    width:960px;
+    height: 60px;
+    border: 1pt #2E4053 solid;
+    padding: 5px;
+}
+nav {
+    text-align: right;
+    float:right;
+}
+nav>a {
+    width: 200px;
     text-align: center;
+    border:1pt #2E4053 solid;
+    position:relative;
+    color: aliceblue;
+    border-radius: 10px;
+    background-color: #2E4053 ;
+    padding: 10px;
+    text-decoration: none;
 }
 #mainContent{
     width: 1024px;
     border: 1pt solid;
 }
-nav, main, footer {
+main, footer {
     width:960px;
     height: 150px;
     border: 1pt #2E4053 solid;

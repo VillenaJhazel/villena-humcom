@@ -7,9 +7,9 @@
 body {
     background-color: lightslategray;
 }
-header{
+div {
     width:960px;
-    height: 200px;
+    height: 230px;
     border: 1pt lavender solid;
 }
 img {
@@ -22,27 +22,25 @@ img {
     image-orientation:from-image ;
     position: relative;
 }
-ol{
-    padding:5px;
-    list-style: none;
+nav {
+    padding: 20px;
 }
-ol>li{
+nav>a{
     width: 150px;
-    background-color:darkturquoise;
+    background-color:rgb(32, 47, 48);
     text-align: center;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     border: 1pt cornsilk solid;
     float:right;
     position:relative;
-    text-decoration: aqua;
+    text-decoration:none;
+    color: mintcream;
 }
 #naomi {
     background-image: url(https://www.layar.id/wp-content/uploads/2019/05/3-naomi.jpg);
     background-size: 100% 100%;
     position: relative;
-    border-image-width: auto;
-    
 }
 #froz {
     background-image: url(https://hashtaglegend.com/wp-content/uploads/2019/12/frozen2header-1.jpg);
@@ -54,28 +52,71 @@ ol>li{
     background-size: 100% 100%;
     position: relative;
 }
-h2 {
+#naomi>h2 {
     font:inherit;
-    font-size:25pt;
+    font-size:30pt;
     font-style: italic;
-    color: ivory;
+    color:whitesmoke;
+}
+#froz>h2 {
+    font:inherit;
+    font-size:30pt;
+    font-style: italic;
+    color:rgb(32, 47, 48);
+}
+#music>h2 {
+    font:inherit;
+    font-size:30pt;
+    font-style: italic;
+    color:whitesmoke;
+}
+footer>h2 {
+    font:inherit;
+    font-size:30pt;
+    font-style: italic;
+    color:whitesmoke;
 }
 h1 {
     font:x-small;
+    color: dimgrey;
 }
-p {
-    color: lightcyan;
+#naomi>p {
+    color:blanchedalmond;
+    text-align: justify;
+    font-size:large ;
+}
+#froz>p {
+    color:midnightblue;
+    text-align: justify;
+    font-size:large ;
+}
+#music>p {
+    color:aliceblue;
+    text-align: justify;
+    font-size:large ;
 }
 article {
     width:960px;
-    height:650px;
+    height:1130px;
     border: 1pt lavender solid;
     padding: 10px;
     position: relative;
+}
+section {
+    padding: 50px;
 }
 footer {
     width:960px;
     height: 200px;
     border:lavender 1pt solid;
     padding: 10px;   
+}
+li {
+    color:midnightblue;
+    text-align: justify;
+    font-size:large ;
+}
+li>a {
+    text-decoration: none;
+    color:midnightblue;
 }

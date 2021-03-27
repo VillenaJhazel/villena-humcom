@@ -4,13 +4,14 @@
     background-color:ghostwhite;
 }
 body {
-    width: 95%;
+    width: 60%;
     height: 100%;
     box-sizing: border-box;
     margin: 10px auto;
     border:1pt black solid;
     background-color: darkgray;
     padding: 20px;
+    text-align: center;
 }
 #head1 {
     border:1pt black solid;
@@ -21,79 +22,102 @@ body {
 }
 header>nav {
     border:1pt black solid;
-    background-color: darkgrey;
-    width: 98%;
+    background-color:paleturquoise;
+    width: 95%;
     height: 5%;
     padding:10px;
 }
 #sec1 {
     border:1pt black solid;
-    width: 40%;
-    height:80%;
+    width: 30%;
+    height:600px;
     padding: 10px;
     background-color:darkturquoise;
     float: left;
+    margin: 1% auto;
 }
-#sec1>header,footer {
+#sec1>header {
     border:1pt black solid;
-    background-color: darkgrey;
+    background-color:paleturquoise;
+    margin: 5% auto;
+    width: 90%;
+    height: 5%;
 }
 #sec1>nav {
     border:1pt black solid;
-    background-color: darkgrey;
-    width: 95%;
-    height: 50%;
+    background-color:paleturquoise;
+    width: 80%;
+    height: 440px;
     padding:10px;
+    margin: 5% auto;
+}
+#sec1>footer {
+    border:1pt black solid;
+    background-color:paleturquoise;
+    margin: 5% auto;
+    width: 80%;
+    height: 5%;
 }
 #sec2 {
     border:1pt black solid;
-    width: 55%;
-    height:80%;
+    width: 63%;
+    height:85%;
     padding: 10px;
     background-color:darkturquoise;
     float: right;
+    margin: 1% auto;
 }
-#sec2>header {
+#sec2>header,footer {
     border:1pt black solid;
-    background-color: darkgrey;
+    background-color:paleturquoise;
     width: 95%;
     height: 5%;
     padding:10px;
 }
 #art1 {
     border:1pt black solid;
-    background-color: darkgrey;
+    background-color:paleturquoise;
     width: 95%;
     height: 5%;
     padding:10px;
+    margin: 3% auto;
 }
 #art1>header,p,footer {
     border:1pt black solid;
+    background-color: powderblue;
 }
 #art2 {
     border:1pt black solid;
-    background-color: darkgrey;
+    background-color:paleturquoise;
     width: 95%;
-    height: 5%;
+    height: 40%;
     padding:10px;
+    margin: 3% auto;
+}
+#art2>header {
+    border:1pt black solid;
+    background-color: powderblue;
 }
 #art2>p{
     border:1pt black solid;
     float: left;
-    height: 10%;
-    width: 40%;
-    padding:10px;
+    height: 120px;
+    width: 290px;
+    background-color: powderblue;
 }
 #art2>aside{
     border:1pt black solid;
     float: right;
-    height: 10%;
-    width: 40%;
+    height: 100px;
+    width: 100px;
     padding:10px;
+    margin: 5% auto;
+    background-color: powderblue;
 }
 #art2>footer {
     border:1pt black solid;
     clear: right;
+    background-color: powderblue;
 }
 #footer {
     border:1pt black solid;

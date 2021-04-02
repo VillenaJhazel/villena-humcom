@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;  
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:black;
+    margin: 9px;
+}
+.col-1 {width: 8%;}
+.col-2 {width: 15%;}
+.col-3 {width: 23%;}
+.col-8 {width: 64%;}
+.col-9 {width: 72%;}
+.col-12 {width: 95%;}
+body{
+    background-color:cornflowerblue;
+    padding: 10px;
+}
+header{
+    height: 160px;
+    background-color: lightgrey;
+}
+nav{
+    height: 260px;
+    width: 960px;
+    background-color: lightgrey;
+}
+main{
+    height:350px ;
+    width: 960px;
+    background-color: lightgrey;
+    float: left;
+}
+aside{
+    height:345px ;
+    width: 16%;
+    background-color: lightgrey;
+    float:right;
+    display:inline;
+}
+footer {
+    height:75px;
+    background-color: lightgrey;
+}
+#head,#nav,#ads,#body,#aside{
+    box-sizing: border-box;
+}
+#head>.col{
+    height: 100px;
+    background-color: steelblue;
+    border: 1px solid black;
+    display:inline;
+    float: left;
+}
+#nav>.col{
+    height: 200px;
+    background-color: steelblue;
+    border: 1px solid black;
+    display:inline;
+    float: left;
+}
+#ads{
+    height: 255px;
+    width: 16%;
+    background-color: steelblue;
+    border: 1px solid black;
+    display:inline;
+    float: right;
+}
+#body>.col{
+    height: 300px;
+    background-color: steelblue;
+    border: 1px solid black;
+    display:inline;
+    float: left;
+}
+#aside>.col{
+    height: 290px;
+    width:90%;
+    background-color: steelblue;
+    border: 1px solid black;
+    float: left;
+}
+footer{ clear:left;}

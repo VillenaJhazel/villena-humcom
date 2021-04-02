@@ -1,0 +1,78 @@
+*{    
+    box-sizing: border-box;         
+    font-family: 'Lucida Sans', 'Lucida Sans Regular',  sans-serif;
+}
+body{ 
+    width: 100%; 
+    margin: 10px auto;
+
+}
+p{
+    font-style: oblique;
+    font-size: large;
+    color: midnightblue;
+}
+header{        
+    grid-column-start: 100%;    
+    padding: 15px;
+    background-color:aqua;
+}
+#set1, #set2, #set3{
+    border: 1pt black solid;
+    text-align: center;
+}
+.bra{
+    width: 8.33%;
+    float: left;
+}
+.glo{
+    width:75%;
+    float: left;
+}
+.too{
+    width: 16.66%;
+    float: left;
+}
+#hero {    
+    background-color:aqua;    
+    width: 100%;    
+    padding: 15px;
+}
+.her {
+    width:  66.66%;
+    float: left;
+}
+.hca {
+    width: 16.66%;
+    float: left;
+}
+.ad {
+    width: 16.66%;
+    float: left;
+}
+#body {    
+    background-color:aqua;        
+    padding: 15px;
+}
+.art{
+    width: 16.66%;
+    float: left;
+}
+.alg {
+    width: 66.66%;
+    float: left;
+}
+.side{
+    width: 16.66%;
+    float: left;
+}
+footer {   
+    background-color:aqua;    
+    width:  100%;    
+    padding: 15px;
+}
+#main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:100px 150px 250px 50px; 
+    grid-gap: 10px;

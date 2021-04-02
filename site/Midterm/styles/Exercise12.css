@@ -9,9 +9,9 @@
 .col-3 {width: 23%;}
 .col-8 {width: 64%;}
 .col-9 {width: 72%;}
-.col-12 {width: 95%;}
+.col-12 {width: 98.5%;}
 body{
-    background-color:cornflowerblue;
+    background-color:darkgrey;
     padding: 10px;
 }
 header{
@@ -80,3 +80,17 @@ footer {
     float: left;
 }
 footer{ clear:left;}
+
+@media only screen and (min-width:1000px) {   
+        #head{    
+            grid-template-columns: auto auto auto;    
+        }
+        .grid-container>.col4{            
+            height: 200px;        
+            grid-column-end: span 3;    
+        }  
+}
+@media screen and (max-width:768px){
+    .col-xs-12{ width:100%;}
+    body{ background-color: lightgrey;} 
+}

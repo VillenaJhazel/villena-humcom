@@ -1,19 +1,19 @@
 *{
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color:black;
     margin-left: auto;
     margin-right: auto;
 }
 body{
-    background-color: cadetblue;
+    background-color:lightpink;
     width: 100%;
 }
 [class*="col-"]{
     float:left;
     padding: 5px;
     border: 5px solid rgba(10,10,10,0.5);
-    background-color: skyblue;
+    background-color:thistle;
 }
 #wrapper{
     width: 90%;
@@ -44,7 +44,7 @@ body{
     width: 16.667%;
 }
 .header, .hero, .body,.sidebar,.footer{
-    background-color: deepskyblue;
+    background-color:gray;
 }
 .hero,.ad{
     height: 180px;

@@ -6,13 +6,12 @@
     margin-right: auto;
 }
 body{
-    background-color:none;
+    background-color:antiquewhite;
     width: 100%;
 }
 [class*="col-"]{
     float:left;
     padding: 5px;
-    background-color:cadetblue;
 }
 #wrapper{
     width: 95%;
@@ -27,66 +26,45 @@ body{
 .col-12{
     width: 100%;
 }
-.col-9{
-    width: 75%;
-}
 .col-7{
     width: 58.333%;
+}
+.col-5{
+    width: 41.66%;
 }
 .col-6{
     width: 50%;
 }
+.col-4{
+    width:33.33%;
+}
 .col-3{
     width: 25%;
 }
-.col-2{
-    width: 16.667%;
-}
-.header, .hero, .body,.footer{
-    background-color:gray;
-}
-.hero,.ad{
-    height: 180px;
-}
-.hf,.hcta{
-    height:105px;
-}
-.body{
-    height: 250px;
-}
-.af,.al,.sf{
-    height: 180px;
-}
+img{float:right;}
 
 @media screen and (max-width:1024px){
-    .col-md-12{width:100%}
-    .col-md-9{width:75%}
+    .col-md-12{width:100%;}
     .col-md-6{width:50%;}
     .col-md-3{width:25%}
-    .ad{height:50px;}
-    .GlobalNav{float:right;height:143px;}
-    .sidebar{float:right;}
+    .Intro,.Video{float:left;}
+    .End,.Nav{float:right;}
+    img{height:30%;}
 }
 @media screen and (max-width:768px){
     #wrapper{width:100%;}   
     .col-sm-12{width:100%;}
-    .col-sm-9{width:75%;}
     .col-sm-7{width:58.33%;}
     .col-sm-5{width:41.66%;}
-    .col-sm-6{width:50%;}
+    .col-sm-4{width:33.33%;}
     .col-sm-3{width:25%;}
-    .tools{height: right;}
-    .GlobalNav{float:left;}
-    .brand{height:143px;}
-    .hero,.ad{height:290px}
-    .sidebar{height:130px;}
-    .sf{height:50px;}
+    .me{height:1000px;width: fit-content;}
+    .Nav{float:left;}
 }
 @media screen and (max-width:320px){
     .col-xs-12{width:100%;}
-    *{float:left;}
-    .body{height: 350px;}
-    .brand,.GlobalNav,.hf,.ad,.af{height: 70px;}
-    .hcta{height: 145px;}
-    .al{height: 200px;}
+    .header{display: inline;}
+    img{height: 400px;float: right;}
+    .me{height: 400px;}
+    *{padding: none;margin:none;}
 }

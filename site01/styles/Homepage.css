@@ -42,6 +42,7 @@ body{
     width: 25%;
 }
 img{float:right;}
+.Nav1{display:contents;}
 
 @media screen and (max-width:1024px){
     .col-md-12{width:100%;}
@@ -50,6 +51,7 @@ img{float:right;}
     .Intro,.Video{float:left;}
     .End,.Nav{float:right;}
     img{height:30%;}
+    .Nav1{display: inline-block;}
 }
 @media screen and (max-width:768px){
     #wrapper{width:100%;}   
